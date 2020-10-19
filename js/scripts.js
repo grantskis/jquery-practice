@@ -1,11 +1,16 @@
-jQuery("h1").click(function() {
+$(document).ready(function() {
+  $("h1").click(function() {
   alert("This is a header.");
+  alert("I told you, THIS IS A HEADER!!!!");
 });
 
-jQuery("p").click(function() {
-  alert("This is a paragraph.");
-});
+  $("p").click(function() {
+    alert("This is a paragraph.");
+  });
 
-jQuery("img").click(function() {
-  alert("This is an image.");
+  $("img").click(function() {
+    alert("This is an image.");
+    alert("There are the Beatles.")
+    alert("The walrus is Paul.");;
+  });
 });
